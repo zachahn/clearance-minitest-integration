@@ -56,4 +56,6 @@ Rails.application.configure do
     generate.helper false
     generate.assets false
   end
+
+  config.action_mailer.default_url_options = { host: 'localhost:3000' }
 end
