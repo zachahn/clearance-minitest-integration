@@ -13,6 +13,7 @@ gem 'jbuilder', '~> 2.5'
 
 group :development, :test do
   gem 'byebug', platform: :mri
+  gem 'factory_girl_rails', '~> 4.7'
 end
 
 group :development do
@@ -23,3 +24,5 @@ group :development do
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem 'clearance', '~> 1.14'
